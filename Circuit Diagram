@@ -1,0 +1,77 @@
+## structure overview
+Webcam
+   ↓
+Laptop
+(OpenCV + MediaPipe)
+   ↓
+Python Program
+   ↓ Serial USB
+Arduino UNO
+   ↓
+Servo Motors
+   ↓
+Robotic Arm
+
+##Components required
+
+Arduino Uno/Nano
+5 Servo Motors 
+Robotic Arm Structure
+External 5V–6V Power Supply
+USB Cable
+Laptop
+Webcam
+Jumper Wires
+Breadboard 
+
+##Circuit Diagram
+
+Laptop
+                    │
+              USB Cable
+                    │
+              Arduino UNO
+      ┌────────┼────────┬────────┐
+      │        │        │        │
+    Pin 3    Pin 5    Pin 6    Pin 9
+      │        │        │        │
+   Servo1  Servo2   Servo3   Servo4
+
+External 5V Supply
+      │
+      ├── Servo VCC
+      │
+      └── Arduino GND
+           │
+           └── Servo GND
+## Flow Chart
+START
+  │
+  ▼
+Open Webcam
+  │
+  ▼
+Detect Hand
+  │
+  ▼
+Extract Landmarks
+  │
+  ▼
+Convert to Angles
+  │
+  ▼
+Send via Serial
+  │
+  ▼
+Arduino Receives
+  │
+  ▼
+Move Servos
+  │
+  ▼
+Repeat
+
+##Author
+Uday H C
+
+BTECH Computer Science Engineering
