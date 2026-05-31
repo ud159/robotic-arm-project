@@ -1,0 +1,44 @@
+
+
+Hardware Setup
+
+1. Assemble the robotic arm and connect all servo motors.
+2. Connect the servo motors to the Arduino Uno.
+3. Connect the Arduino Uno to the computer using a USB cable.
+
+Software Setup
+
+1. Install Arduino IDE.
+2. Open the Arduino code from the "aurdino_code" file.
+3. Select the correct board and COM port.
+4. Upload the code to the Arduino Uno.
+
+Python Setup
+
+1. Install Python 3.
+2. Install the required library:
+
+pip install pyserial
+
+3. Open the Python script from "python_robotic_connection_code".
+
+Run the Project
+
+1. Connect the Arduino to the computer.
+2. Run the Python script.
+3. Send commands from the Python application.
+4. The Arduino receives the commands through serial communication.
+5. The servo motors move the robotic arm according to the commands received.
+
+Project Structure
+
+robotic-arm-project/
+├── photos/
+├── research paper/
+├── aurdino_code
+├── python_robotic_connection_code
+└── README.md
+
+Output
+
+The robotic arm performs real-time movements using Arduino and Python communication. Commands sent from the computer control the movement of the servo motors attached to the robotic arm.
