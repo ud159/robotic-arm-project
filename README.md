@@ -51,7 +51,7 @@ This project is a robotic arm controlled using Arduino and Python. The system ca
 ![Image 3](https://raw.githubusercontent.com/ud159/robotic-arm-project/main/photos/WhatsApp%20Image%202026-05-31%20at%209.42.18%20AM%20(1).jpeg)
 
 ### Image 4
-![Image 4](https://raw.githubusercontent.com/ud159/robotic-arm-project/main/photos/WhatsApp%20Image%202026-05-31%20at%209.42.19%20AM%20(2).jpeg)
+[Image 4](https://raw.githubusercontent.com/ud159/robotic-arm-project/main/photos/WhatsApp%20Image%202026-05-31%20at%209.42.19%20AM%20(2).jpeg)
 
 ### Image 5
 ![Image 5](https://raw.githubusercontent.com/ud159/robotic-arm-project/main/photos/WhatsApp%20Image%202026-05-31%20at%209.42.19%20AM.jpeg)
