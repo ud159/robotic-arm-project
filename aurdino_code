@@ -1,0 +1,35 @@
+#include <Servo.h>
+
+Servo fingerServo;
+
+String data = "";
+
+void setup()
+{
+  Serial.begin(9600);
+
+  fingerServo.attach(9);
+}
+
+void loop()
+{
+  while (Serial.available())
+  {
+    char c = Serial.read();
+
+    if (c == '\n')
+    {
+      int angle = data.toInt();
+
+      angle = constrain(angle, 0, 180);
+
+      fingerServo.write(angle);
+
+      data = "";
+    }
+    else
+    {
+      data += c;
+    }
+  }
+}
