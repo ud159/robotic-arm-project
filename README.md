@@ -31,6 +31,11 @@ This project is a robotic arm controlled using Arduino and Python. The system ca
 2. Arduino receives the commands through serial communication.
 3. Arduino controls the servo motors.
 4. The robotic arm moves according to the received command.
+
+## Overview
+## Circuit Diagram
+
+[View Circuit Diagram](https://github.com/ud159/robotic-arm-project/blob/main/Circuit%20Diagram)
    
 
 ## Images of the projects
